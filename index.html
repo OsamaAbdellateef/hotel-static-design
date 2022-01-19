@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,200;1,300;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/09fc679735.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#">
+          <img class="header__logo" src="./img/logo.png" />
+        </a>
+        <!---->
+        <form action="#" class="search">
+          <div class="input-container">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="search hotels"
+            />
+            <i class="search__icon fab fa-searchengin"></i>
+          </div>
+        </form>
+        <!---->
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <i class="fas fa-comments"></i>
+            <span class="user-nav__noti">3</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <i class="fas fa-bookmark"></i>
+            <span class="user-nav__noti">3</span>
+          </div>
+          <div class="user-nav__user-personal">
+            <img class="user-nav__img" src="./img/user-1.jpg" />
+            <span class="user-nav__name">Osama</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="sidebar__nav">
+            <li class="sidebar__nav-item sidebar__nav-item--active">
+              <a class="sidebar__nav-link" href="#">
+                <i class="sidebar__nav-icon fas fa-hotel"></i>
+                hotel</a
+              >
+            </li>
+            <li class="sidebar__nav-item">
+              <a class="sidebar__nav-link" href="#">
+                <i class="sidebar__nav-icon fas fa-plane"></i>
+                flight</a
+              >
+            </li>
+            <li class="sidebar__nav-item">
+              <a class="sidebar__nav-link" href="#">
+                <i class="sidebar__nav-icon fas fa-key"></i>
+                car rental</a
+              >
+            </li>
+            <li class="sidebar__nav-item">
+              <a class="sidebar__nav-link" href="#">
+                <i class="sidebar__nav-icon far fa-map"></i>
+                tours</a
+              >
+            </li>
+          </ul>
+          <div class="legal">© 2017 by trillo. All rights reserved.</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="./img/hotel-1.jpg" alt="" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="./img/hotel-2.jpg" alt="" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="./img/hotel-3.jpg" alt="" class="gallery__photo" />
+            </figure>
+          </div>
+          <div class="overview">
+            <h3 class="overview__heading">overview heading</h3>
+            <div class="overview__stars">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="overview__location">
+              <i class="fas fa-map-marker"></i>
+              Egypt, Mallawi
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">9.1</div>
+              <div class="overview__rating-count">540 votes</div>
+            </div>
+          </div>
+          <div class="details">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                in
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <div class="list-container">
+                <ul class="list">
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i>
+                    Close to the beach
+                  </li>
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> Free airport shuttle
+                  </li>
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> Air conditioning and
+                    heating
+                  </li>
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> We speak all languages
+                  </li>
+                </ul>
+                <ul class="list">
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> Breakfast included
+                  </li>
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> Free wifi in all rooms
+                  </li>
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> Pets allowed
+                  </li>
+                  <li class="list-item">
+                    <i class="fas fa-angle-right"></i> Perfect for families
+                  </li>
+                </ul>
+              </div>
+              <div class="recommend">
+                <p class="recommend__paragraph">
+                  Lucy and 3 other friends recommend this hotel.
+                </p>
+                <div class="recommend__imgs-box">
+                  <img class="recommend__photo" src="./img/user-1.jpg" alt="" />
+                  <img class="recommend__photo" src="./img/user-2.jpg" alt="" />
+                  <img class="recommend__photo" src="./img/user-3.jpg" alt="" />
+                  <img class="recommend__photo" src="./img/user-4.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="user-overviews">
+              <div class="review">
+                <p class="review__paragraph">
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  irure dolor
+                </p>
+                <div class="review__user">
+                  <div class="review__img-box">
+                    <img class="review__photo" src="./img/user-2.jpg" />
+                  </div>
+                  <div class="review__details">
+                    <h3 class="review__name">Dasha</h3>
+                    <p class="date">Feb 23rd, 2022</p>
+                  </div>
+                  <h2 class="review__rating">8.6</h2>
+                </div>
+              </div>
+              <div class="review">
+                <p class="review__paragraph">
+                  at risus viverra adipiscing. Mi eget mauris pharetra et
+                  ultrices neque ornare. Aliquet sagittis id consectetur purus
+                  ut faucibus pulvinar elementum integer.
+                </p>
+                <div class="review__user">
+                  <div class="review__img-box">
+                    <img class="review__photo" src="./img/user-3.jpg" />
+                  </div>
+                  <div class="review__details">
+                    <h3 class="review__name">Jack</h3>
+                    <p class="date">Mar 3rd, 2022</p>
+                  </div>
+                  <h2 class="review__rating">7.9</h2>
+                </div>
+              </div>
+              <button class="user-overviews__button">
+                show all <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="booking">
+            <h2 class="booking__heading">
+              GOOD NEWS! WE HAVE 4 FREE ROOMS FOR YOUR SELECTED DATES!
+            </h2>
+            <button class="booking__button">
+              <span class="booking__button--first-text">book now</span>
+              <span class="booking__button--second-text"
+                >only 4 rooms left
+              </span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.container {
+  max-width: 120rem;
+  background-color: whitesmoke;
+  margin: 5rem auto;
+  min-height: 50rem;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.header {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+  input {
+    height: 4rem;
+  }
+
+  i {
+    position: absolute;
+    font-size: 2.3rem;
+    right: 15%;
+    top: 1rem;
+    transition: var(--transition-medium);
+  }
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  @media only screen and (max-width: $bp-large) {
+    flex-direction: column;
+  }
+  @media only screen and(max-width:$bp-small) {
+    margin-top: 5rem;
+  }
+}
+
+.sidebar {
+  background-color: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-view {
+  flex: 1;
+}
